@@ -75,12 +75,12 @@ li{
 }
 
 .central-text-title{
-    font-size: 64px;
+    font-size: 4.3vw;
     line-height: 70.4px;
     font-weight: bolder;
 }
 .central-text-title-subtitle{
-    font-size: 26px;
+    font-size: 2.3vw;
 }
 
 .email-form-title{
@@ -211,7 +211,7 @@ i.fa{
 }
 
 .our-story-card-title {
-    font-size: 50px;
+    font-size: 4vw;
     font-weight: bolder;
     line-height: 1.1;
     margin-bottom: .5rem;
@@ -291,7 +291,7 @@ i.fa{
     width: 100%;
     border: 0;
     text-align: start;
-    font-size: 25px;
+    font-size: 1.5vw;
     margin-bottom: 10px;
 }
 
