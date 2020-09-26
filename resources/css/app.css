@@ -1,0 +1,340 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*, a{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    border: 1px solid green;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    width: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:white;
+}
+li{
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.border-b{
+    border-bottom: 8px solid #222;
+}
+.container-fluid{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/43375087-3875-4574-86c4-4c14c3473535/fea20d35-cf38-4f0e-966e-1376ee366c74/IT-it-20200921-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    object-fit: cover;
+}
+.img-gradient{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+.navbar{
+    opacity: 90%;
+    background-color: transparent;
+    margin: 0 auto;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.nfLogo .svg-icon-netflix-logo {
+    padding-top: .5rem;
+    width: 167px;
+}
+
+.nfLogo {
+    fill: #e50914;
+    line-height: normal;
+}
+
+.authLinks.redButton {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+    width: 84.59px;
+}
+
+.central-text{
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+    padding: 75px 0;
+    margin: 0 auto;
+}
+
+.central-text-title{
+    font-size: 64px;
+    line-height: 70.4px;
+    font-weight: bolder;
+}
+.central-text-title-subtitle{
+    font-size: 26px;
+}
+
+.email-form-title{
+    font-size: 19.2px;
+}
+.email-form-box {
+    color: #8c8c8c;
+    font-size: 16px;
+    display: flex;
+    width: 58%;
+    text-align: left;
+    margin: 2% 29%;
+}
+
+.nfTextField{
+    text-align: start;
+    padding: 0px 10px;
+    height: 70px;
+    width: 100%;
+}
+.button-cta{
+    width: fit-content;
+}
+
+.cta-btn{
+    padding: 10px;
+    height: 70px;
+    background-color: #e50914;
+    width: 100%;
+    border: none;
+}
+
+.cta-btn-txt{
+    font-size: 30px;
+    color: white;
+    margin: 8px;
+}
+i.fa{
+    width: fit-content;
+}
+
+.behind-form-disclaimer{
+    font-size: 19.2px;
+}
+
+.flex-prop-class{
+    display: flex;
+    align-items: center;
+    padding: 70px 45px;
+    background-color: black;
+    color: white;
+}
+
+.tv-container{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tv-container-text{
+    width: 40vw;
+    padding: 30px;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+.tv-container-fav{
+    display: inline-flex;
+    margin: 0 auto;
+    width: 510px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tv-box-img{
+    position: relative;
+    z-index: 2;
+}
+
+.stranger-things-box{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.millie-bobby{
+    display: inline-flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    justify-items: baseline;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.our-story-card-text{
+    width: 55vw;
+    padding: 30px;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.our-story-card-video{
+    max-width: 362px;
+    display: inline-flex;
+    width: 362px;
+    position: absolute;
+    z-index: auto;
+    top: 21%;
+    right: 9%;
+}
+
+.sub-container-tv-fav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.our-story-card-title {
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+
+.our-story-card-subtitle{
+    font-size: 26px;
+}
+
+.animated-card{
+    margin: 0 auto;
+    background: #000;
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 0.75em;
+    width: 60%;
+    padding: 12px 8px;
+    flex-wrap: nowrap;
+}
+.image-amimated-card{
+    margin-right: 16px;
+}
+
+.text-0{
+    font-size: 16px;
+    font-weight: bold;
+}
+.text-1{
+    font-size: 14.4px;
+    color: #0071eb;
+}
+.mac-box-img{
+    position: relative;
+    z-index: 4;
+}
+
+.our-story-card-video{
+    width: 362px;
+}
+
+.stranger-vid{
+    z-index: auto;
+    top: 10%;
+    right: 19%;
+    width: 62%;
+}
+.faq-container{
+    padding: 70px 45px;
+    background-color: black;
+}
+
+.faq-title{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.faq-list-item{
+    font-size: 1.625rem;
+    margin: 0 0 8px 0;
+}
+.faq-list-box{
+    margin-bottom: 3rem;
+}
+
+.dropdown{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.btn-faq-item{
+    background-color: #303030;
+    color: #ffffff;
+    padding: .8em 2.2em .8em 1.2em;
+    margin-bottom: 1px;
+    width: 100%;
+    border: 0;
+    text-align: start;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.faq-answer{
+    background: #303030;
+    color: #ffffff;
+    display: inline-block;
+    padding: 1.2em;
+    text-align: start;
+}
+.footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 45px;
+    background-color: black;
+    color: white;
+}
+
+a[data-uia=footer-link],p.footer-top{
+    color: #757575;
+    display: contents;
+}
+
+.footer-link{
+    text-align: start;
+}
+
+.footer-link-item{
+    display: inline-table;
+    width: 200px;
+    margin-bottom: 16px;
+}
+.dropdown-btn{
+    width: fit-content;
+}
+a.btn{
+    background-color: black;
+}
+.dropdown-menu{
+    background-color: inherit;
+}
+.dropdown-menu show, a.dropdown-item{
+    width: 113px;
+    color: white;
+    border: 1px solid white;
+}
