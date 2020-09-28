@@ -20,4 +20,17 @@ module.exports = {
     },
 
     plugins: [require('@tailwindcss/ui')],
-};
+
+    future: {
+      removeDeprecatedGapUtilities: true,
+      purgeLayersByDefault: true,
+    },
+
+    purge: {
+      layers: ['utilities'],
+      content: [
+     // Paths to your templates...
+        ],
+    },
+     // ..
+    };

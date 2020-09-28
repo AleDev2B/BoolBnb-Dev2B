@@ -58,17 +58,15 @@
 
                             @if (Route::has('register'))
                                     <div class="button-cta">
-                                        <button type="submit" name="button" class="cta-btn">
-                                        <a href="{{ route('register') }}">
-                                        <span id="" class="cta-btn-txt" data-uia="">INIZIA<i class="fa fa-lg fa-angle-right"></i></span>
-                                    </a>
-                                </button>
-                            </div>
+                                        <a href="{{ route('register') }}" class="cta-btn cta-btn-txt" role="button">INIZIA
+                                          <i class="fa fa-lg fa-angle-right"></i>
+                                        </a>
+                                    </div>
 
-                        @endif
-                        @endif
+                            @endif
+                @endif
 
-                        @endif
+        @endif
 
                     </div>
                 </form>

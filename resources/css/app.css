@@ -87,12 +87,16 @@ li{
     font-size: 19.2px;
 }
 .email-form-box {
-    color: #8c8c8c;
-    font-size: 16px;
-    display: flex;
-    width: 58%;
-    text-align: left;
-    margin: 2% 29%;
+  color: #8c8c8c;
+  font-size: 16px;
+  display: table;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+.input_id{
+  display: inline-flex;
+  margin-bottom: .5rem;
+  width: 460px;
 }
 
 .nfTextField{
@@ -102,7 +106,9 @@ li{
     width: 100%;
 }
 .button-cta{
-    width: fit-content;
+  display: inline-flex;
+  width: 160px;
+  vertical-align: top;
 }
 
 .cta-btn{
@@ -116,7 +122,6 @@ li{
 .cta-btn-txt{
     font-size: 30px;
     color: white;
-    margin: 8px;
 }
 i.fa{
     width: fit-content;
