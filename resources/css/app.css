@@ -4,7 +4,7 @@
 
 *{
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     width: inherit;
