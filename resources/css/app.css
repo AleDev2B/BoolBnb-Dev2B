@@ -9,8 +9,10 @@
     text-decoration: none;
     width: inherit;
 }
-a:hover{
+a,a:hover{
   text-decoration: none;
+  background-color: #db0510;
+  color: #fff;
 }
 
 h1,h2,h3,h4,h5,h6 {
