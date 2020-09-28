@@ -185,9 +185,9 @@
                         <input type="email" data-uia="field-email" name="email" class="nfTextField" placeholder="Indirizzo email" tabindex="0" autocomplete="email" maxlength="50" minlength="5" dir="">
                     </label>
                     <div class="button-cta">
-                        <button type="submit" name="button" class="cta-btn">
-                            <span id="" class="cta-btn-txt" data-uia="">INIZIA</span>
-                        </button>
+                        <a href="{{ route('register') }}" class="cta-btn cta-btn-txt" role="button">INIZIA
+                          <i class="fa fa-lg fa-angle-right"></i>
+                        </a>
                     </div>
                 </div>
                 <h3 class="behind-form-disclaimer">Solo i nuovi abbonati hanno diritto a questa offerta.</h3>

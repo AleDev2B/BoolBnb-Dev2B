@@ -2,12 +2,15 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-*, a{
+*{
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     border: 1px solid green;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     width: inherit;
+}
+a:hover{
+  text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -21,6 +24,7 @@ li{
 .border-b{
     border-bottom: 8px solid #222;
 }
+
 .container-fluid{
     margin:0;
     padding: 0;
